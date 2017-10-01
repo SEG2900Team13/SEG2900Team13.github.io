@@ -1,13 +1,13 @@
 
 Adam: https://github.com/adamlawson99, 300025152
 
-Patrick: https://github.com/ultimatrick
+Patrick: https://github.com/ultimatrick, 300001909
 
 Anthony: https://github.com/PlanetXD
 
-Thomas: https://github.com/tstro098
+Thomas: https://github.com/tstro098, 300008393
 
-Vivian: https://github.com/viviandiec
+Vivian: https://github.com/viviandiec, 
 
 Product name: Daedealus
 
