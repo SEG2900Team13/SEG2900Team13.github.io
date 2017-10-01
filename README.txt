@@ -5,7 +5,7 @@ Team Name: Daedealus
 
 Team Member Names: 
 Vivian Diec - Student Number 300019092
-Anthony Lai - Student Number
+Anthony Lai - Student Number 300012706
 Adam Lawson -  Student Number 300025152
 Patrick Nguyen - Student Number 300001909
 Thomas Strosberg - Student Number 300008393
