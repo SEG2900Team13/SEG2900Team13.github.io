@@ -13,5 +13,5 @@ Thomas Strosberg - Student Number 300008393
 Product Name: Daedealus
 
 Product Description: 
-Daedealus is a phone application that tracks business deals in the surrounding area for users to browse within the app. It is meant to make finding deals/sales more convenient.
+Daedealus is a phone application that tracks business deals in the surrounding area for users to browse within the app. It is meant to make finding deals and sales more convenient.
 
