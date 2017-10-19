@@ -3,7 +3,20 @@ Overall Look and Feel of Daedealus
 
 The overall look and feel should be minimalist 
 
+Colours
+=======
 
+Navigation Bar:
+-#36302F
+-#FFFFFF
+
+Background:
+-#F0FAFA
+-#FBF9F7
+-#082D4C
+-#33314B
+
+(These are the general shades but they may change later on)
 
 Iconography
 ===========
@@ -13,9 +26,11 @@ http://fontawesome.io/.
 
 Typography
 ==========
+We will be using Roboto from Google Fonts.
 
 Links
 =====
+
 
 
 Buttons
