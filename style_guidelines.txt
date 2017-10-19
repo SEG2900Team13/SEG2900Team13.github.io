@@ -2,3 +2,9 @@ Overall Look and Feel of Daedealus
 ==================================
 
 The overall look and feel should be minimalist 
+
+Icons
+==================================
+
+Icons used in the site will be retrieved using the Font-Awesome Icon Library:
+http://fontawesome.io/
