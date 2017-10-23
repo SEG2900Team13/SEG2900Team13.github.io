@@ -1,11 +1,11 @@
 Overall Look and Feel of Daedealus
 ==================================
-
-The overall look and feel should be minimalist 
+The overall look and feel should be flat and minimalist. The user should feel calm and relaxed
+when using the website.
 
 Colours
 =======
-
+The colours that we are using are mostly neutral with accents of more vibrant colours.
 Navigation Bar:
 -#36302F
 -#FFFFFF
@@ -16,12 +16,11 @@ Background:
 -#082D4C
 -#33314B
 
-(These are the general shades but they may change later on)
+(These are the general shades and may change later on)
 
 Iconography
 ===========
-
-The icons used will have a 'flat' design and will be retrieved using the Font-Awesome Icon Library:
+The icons used will have a flat design and will be retrieved using the Font-Awesome Icon Library:
 http://fontawesome.io/.
 
 Typography
@@ -30,7 +29,8 @@ We will be using Roboto from Google Fonts.
 
 Links
 =====
-
+The links will change colour when the user hovers over it and will not be underlined.
 
 Buttons
 =======
+The buttons will have a flat design and will have the colours outlined above.
