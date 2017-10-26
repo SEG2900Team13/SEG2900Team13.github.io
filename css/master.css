@@ -59,6 +59,9 @@ body {
 	height: 100%;
 	text-decoration: none;
 }
+#navbar .active {
+	color: #5acadd;
+}
 #footer {
 	color: #989898;
 	text-align: center;
