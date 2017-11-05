@@ -21,8 +21,7 @@ body {
 #navbar h1 {
 	color: #FFF;
 	font-weight: bold;
-	padding: 0 10px;
-	border-right: solid 4px #dcdcdc;
+	padding: 0px 10px;
 }
 #navbar ul {
 	display: inline-flex;
@@ -38,7 +37,7 @@ body {
     height: 100%;
     text-align: center;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 #navbar li:hover {
 	color: #5acadd;
@@ -47,7 +46,7 @@ body {
     height: 100%;
     text-align: center;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
 #navbar li span {
     display: table-cell;
