@@ -74,3 +74,9 @@ body {
     width: inherit;
 }
 /* End Thomas */
+/* Beginning Adam */
+.bndescription{
+			font-size:20px;
+			width: 400px;
+			text-align: center; 
+}
