@@ -73,6 +73,7 @@ body {
     position: absolute;
     width: inherit;
 }
+<<<<<<< HEAD
 /* End Thomas */
 /* Beginning Adam */
 .bndescription{
@@ -80,3 +81,17 @@ body {
 			width: 400px;
 			text-align: center; 
 }
+=======
+#landing_table {
+    margin: 0 auto;
+    top: 50%;
+    position: relative;
+    transform: translateY(-60%);
+}
+#landing_table td {
+}
+#landing_table img {
+    height: 75%;
+}
+/* End Thomas */
+>>>>>>> 99dfc7a1644719abbb45566bd952cec44d76cb24
