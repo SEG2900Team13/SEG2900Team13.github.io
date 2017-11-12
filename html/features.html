@@ -10,47 +10,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=">
 	
 	<style>
-		body {
-			background: url("../img/features.jpg") no-repeat center center fixed;
-			-webkit-background-size: cover;
-   			-moz-background-size: cover;
-   			-o-background-size: cover;
-    		background-size: cover;
-		}
 		
+		body, html { 
+			overflow-x: hidden; 
+			overflow-y: auto;
+		}
+
 		div.object
 		{
 			width:100%;
 			height:100%;
-			position:absolute;
+			position:relative;
 			left:-50%;
-			top:-50%; /* to anchor at the top center point (as opposed to true center) set this to 0 or remove it all together */
+			top:-50%; 
 		}
+		
 		div.anchor
 		{
-			position:absolute; /* (or relative, never static) */
+			position:relative; /* (or relative, never static) */
 		}
 		/* CSS for positioning and dimensioning properties */
+		
+		
 		div#f1
 		{
 			left:17.5%;
-			top:50%;
-			width:450px;
+			top:300px;
+			width:30vw;
 			height:450px;
 		}
 		div#f2
 		{
 			left:50%;
-			top:55%;
-			width:450px;
+			top:-100px;
+			width:30vw;
 			height:450px;
 		}
 		
 		div#f3
 		{
 			left:82.5%;
-			top:50%;
-			width:450px;
+			top:-600px;
+			width:30vw;
 			height:450px;
 		}
 		
@@ -76,12 +77,12 @@
 			font-size:30px;
 			text-align: center;
 			position:relative;
-			top:30px;
+			top:40px;
 		}
 		
 		.icon{
-			width: 175px;
-			height: 175px;
+			width: 12.5vw;
+			height: 12.5vw;
 			margin: auto;
 			display: block;
 			position:relative;
@@ -93,7 +94,7 @@
 			font-size:20px;
 			text-align: center;
 			position:relative;
-			top:30px;
+			top:40px;
 		}
 	</style>
 </head>
@@ -122,7 +123,7 @@
 	<div id="main">
 
 	<div class="anchor" id="f1">
-		<div class="object">
+		<div class="object" class="feature">
 			<img class="icon" src="../icons/shopping.png">
 			<h2 class = "header"> Possibilities are Endless </h2>
 			<div class = "description">
@@ -148,7 +149,7 @@
 	</div>
 	
 	<div class="anchor" id="f3">
-	    <div class="object">
+	    <div class="object feature">
 			<img class="icon" src="../icons/location.png" >
 			<h2 class = "header"> Anywhere, Anyplace, Anytime </h2>
 			<div class = "description">
@@ -166,6 +167,7 @@
 	<footer class="footer">
 	DAEDEALUS &copy; 2017
 	</footer>
+	
 	<!-- End of footer -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
