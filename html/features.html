@@ -3,15 +3,42 @@
 <head>
 	<title>Daedealus</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#f1').fadeOut(-1)
+		$('#f1').fadeIn(1200)
+		$('#f2').fadeOut(-1)
+		$('#f2').fadeIn(1200)
+		$('#f3').fadeOut(-1)
+		$('#f3').fadeIn(1200)		
+	});
+	</script>
 	
 	<style>
+	
 		body {
-			background: url("../img/features.jpg") no-repeat center center fixed;
+			background: url("../img/landing.jpg") no-repeat center center fixed;
 			-webkit-background-size: cover;
    			-moz-background-size: cover;
    			-o-background-size: cover;
     		background-size: cover;
+		}
+		
+		#main{
+		height:669.5px;
+		overflow-x: hidden; 
+		overflow-y: hidden;
 		}
 		
 		div.object
@@ -20,70 +47,67 @@
 			height:100%;
 			position:absolute;
 			left:-50%;
-			top:-50%; /* to anchor at the top center point (as opposed to true center) set this to 0 or remove it all together */
+			top:-50%; 
 		}
-
+		
 		div.anchor
 		{
-			position:absolute; /* (or relative, never static) */
+			position:relative; /* (or relative, never static) */
 		}
-
 		/* CSS for positioning and dimensioning properties */
-		div#f1
+		
+		
+		
+		#f1
 		{
 			left:17.5%;
-			top:50%;
-			width:450px;
+			top:300px;
+			width:30vw;
 			height:450px;
 		}
-
 		div#f2
 		{
 			left:50%;
-			top:55%;
-			width:450px;
+			top:-100px;
+			width:30vw;
 			height:450px;
 		}
 		
 		div#f3
 		{
 			left:82.5%;
-			top:50%;
-			width:450px;
+			top:-600px;
+			width:30vw;
 			height:450px;
 		}
 		
-		/* CSS for all other properties */
 		div#f1 > div.object
 		{
 			background-color:black;
 			opacity:0.75;
 		}
-
 		div#f2 > div.object
 		{
 			background-color:black;
 			opacity:0.75;
 		}
-
 		div#f3 > div.object
 		{
 			background-color:black;
 			opacity:0.75;
 		}
 	
-
 		.header{
 			color: white;
 			font-size:30px;
 			text-align: center;
 			position:relative;
-			top:30px;
+			top:40px;
 		}
 		
 		.icon{
-			width: 175px;
-			height: 175px;
+			width: 12.5vw;
+			height: 12.5vw;
 			margin: auto;
 			display: block;
 			position:relative;
@@ -95,73 +119,80 @@
 			font-size:20px;
 			text-align: center;
 			position:relative;
-			top:30px;
+			top:40px;
 		}
-
+		
 	</style>
+
 </head>
 <body>
 
-	<div class="anchor" id="f1">
-		<div class="object">
-			<img class="icon" src="../icons/shopping.png">
-			<h2 class = "header"> Possibilities are Endless </h2>
-			<div class = "description">
-				<p>
-					With Daedealus, one can browse through a limitless supply of deals
-					to find deals you hope to find and deals you have yet to discover.
-				</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="anchor" id="f2">
-	    <div class="object">
-			<img class="icon" src="../icons/money.png">
-			<h2 class = "header"> Save Big, Gain Even Bigger </h2>
-			<div class = "description">
-				<p>
-					Reduce the strain on your budget while still maximizing your enjoyment of life;
-					save big and discover more places you didnt know about.
-				</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="anchor" id="f3">
-	    <div class="object">
-			<img class="icon" src="../icons/location.png" >
-			<h2 class = "header"> Anywhere, Anyplace, Anytime </h2>
-			<div class = "description">
-				<p>
-					With Daedealus, you will never be bored; explore
-					your surroundings and find deals anywhere, anyplace, anytime
-				</p>
-			</div>
-		</div> 
-	</div>
+	<div id="wrap">
 
-	<!-- Navbar start - Thomas -->
-	<div id='navbar'>
-		<a href="landing.html"><h1>
-			DAEDEALUS
-		</h1></a>
+		<nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+		<a class="navbar-brand" href="#"><h1>DAEDEALUS</h1></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   		<span class="navbar-toggler-icon"></span>
+  		</button>
 
-		<ul>
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+		<ul class="navbar-nav mr-auto">
 			<a href="landing.html"><li><span>Home</span></li></a>
 			<a href="features.html"><li class='active'><span>Features</span></li></a>
 			<a href="team.html"><li><span>Team</span></li></a>
 			<a href="business_features.html"><li><span>Business</span></li></a>
 		</ul>
+
+		</div>
+	</nav>
+
+
+	<div id="main">
+		<div class="anchor" id="f1">
+			<div class="object">
+				<img class="icon" src="../icons/shopping.png">
+				<h2 class = "header"> Filter Your Choices </h2>
+				<div class = "description">
+					<p>
+						Daedealus's platform contains deals from every industry so you can filter
+						which types of promotions you want to see most often.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="anchor" id="f2">
+			<div class="object">
+				<img class="icon" src="../icons/money.png">
+				<h2 class = "header"> Discover and Explore </h2>
+				<div class = "description">
+					<p>
+						With Daedealus you can effortlessly browse through listed deals or if you're
+						feeling adventurous, you can explore your city to find new, exciting deals.		
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="anchor" id="f3">
+			<div class="object">
+				<img class="icon" src="../icons/location.png" >
+				<h2 class = "header"> Location Navigation </h2>
+				<div class = "description">
+					<p>
+						Once you have decided what deal you want, Daedealus will navigate you to
+						the location of the deal anytime and anyplace.
+					</p>
+				</div>
+			</div> 
+		</div>
 	</div>
-	<!-- Navbar end -->
 	
-	<!-- Footer start - Thomas -->
-		<div id='footer'>
-			DAEDEALUS &copy; 2017
-		</div> 
-	<!-- Footer end -->
-			
-			
+	<footer class="footer">
+	DAEDEALUS &copy; 2017
+	</footer>
 </body>
 </html>
+
+	

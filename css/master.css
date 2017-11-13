@@ -9,6 +9,15 @@ html, body {
 	height: 100%;
 	margin: 0;
 }
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:50px;
+}
+
 body {
 	background-color: #F0FAFA;
 	font-family: 'Roboto', sans-serif;
@@ -23,6 +32,7 @@ body {
 	font-weight: bold;
 	padding: 0 10px;
 	border-right: solid 4px #dcdcdc;
+    font-size: 25px;
 }
 #navbar ul {
 	display: inline-flex;
@@ -62,36 +72,135 @@ body {
 #navbar .active {
 	color: #5acadd;
 }
-#footer {
+.footer {
 	color: #989898;
 	text-align: center;
 	font-size: 12px;
 	padding: 15px 0;
 	border-top: rgb(76, 82, 90) 1px solid;
     background: #36302F;
-    bottom: 0;
-    position: absolute;
-    width: inherit;
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear:both;
+
 }
-<<<<<<< HEAD
 /* End Thomas */
 /* Beginning Adam */
 .bndescription{
-			font-size:20px;
-			width: 400px;
-			text-align: center; 
+            font-size:20px;
+            width: 400px;
+            text-align: center; 
 }
-=======
-#landing_table {
-    margin: 0 auto;
-    top: 50%;
-    position: relative;
-    transform: translateY(-60%);
+/* End Adam */
+
+/* hover function*************************/
+
+.container {
+  position: relative;
+  width: 100%;
 }
-#landing_table td {
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: auto;
 }
-#landing_table img {
-    height: 75%;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 92%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #33314B;
 }
-/* End Thomas */
->>>>>>> 99dfc7a1644719abbb45566bd952cec44d76cb24
+
+.container:hover .overlay {
+  opacity: 0.95;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text2 {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*
+Pricing Table CSS - Anthony
+*/
+
+.columns {
+   
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #36302F;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #5acadd;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button:hover{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
