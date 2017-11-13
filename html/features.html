@@ -23,6 +23,11 @@
 		$('#f3').fadeOut(-1)
 		$('#f3').fadeIn(1200)		
 	});
+	
+	 $(window).on('beforeunload', function(){
+        $("#f1").fadeOut(1000);
+
+    });
 	</script>
 	
 	<style>
